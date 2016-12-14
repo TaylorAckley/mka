@@ -1,0 +1,25 @@
+//global typography styles.   Includes icons.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    letter-spacing: 1px;
+    font-family: $font-stack-headers;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 1.3rem;
+        line-height: 1.6;
+    }
+}

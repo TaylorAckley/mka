@@ -1,0 +1,23 @@
+{
+    "name": "mka",
+    "authors": [
+        "TaylorAckley <taylorackley@gmail.com>"
+    ],
+    "description": "",
+    "main": "index.html",
+    "license": "MIT",
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "components-font-awesome": "^4.7.0",
+        "animate.css": "^3.5.2"
+    }
+}
