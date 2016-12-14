@@ -16,8 +16,8 @@ var gulp = require('gulp'),
 // Asset pipelines.   I do it this way so they are loaded in the correct order.  ie: Angular files, vendor files, custom app files.  Drawback is you need to restart gulp everytime you want to load a new asset.
 
 var jsAssets = [
-
-    'src/app/**/*.js'
+    'vendor/jquery/dist/jquery.min.js',
+    'vendor/bootstrap/dist/js/bootstrap.min.js'
 ];
 
 var cssAssets = [

@@ -8,11 +8,14 @@ $black: #111111;
 $red: #e74c3c;
 $border: #fff;
 $body: #fff;
-$primary-text: #fff;
+$primary-text: $black;
 $secondary-text: $blue;
 $gradient-one: #70e1f5;
 $gradient-two: #ffd194;
 $gradient-alt-one: #70e1f5;
 $gradient-alt-two: #ffd194;
-$font-stack-body: 'Open Sans', 'Raleway', 'Helvetica Neue', sans-serif;
-$font-stack-headers: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+$font-stack-body: 'Open Sans',
+'Raleway',
+'Helvetica Neue',
+sans-serif;
+$font-stack-headers: 'Vesper Libre', 'Cutive', 'Trocci', 'Slabo', sans-serif;

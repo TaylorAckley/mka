@@ -3,7 +3,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <!DOCTYPE html>
-<html ng-app="weatherApp" ng-strict-di>
+<html>
 
 <head>
     <base href="/">
@@ -11,22 +11,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <title>WeatherApp - Powered by Dark Sky</title>
+    <title>Molly Keen Aigner - Muralist</title>
     <meta property="og:title" content="weatherApp" />
     <meta property="og:description" content="Daily and weekly forecast powered by Dark Sky." />
     <meta property="og:url" content="http://localhost:9000" />
     <meta property="fb:app_id" content="1679929525653845" />
-    <meta name="description" content="Daily and weekly forecast powered by Dark Sky.">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Raleway" rel="stylesheet">
-    <link href="/styles/app.min.css?rev=dfb9d4a61491278ebc70bd953f87a014" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Bitter|Cutive|Scope+One|Slabo+27px|Trocchi|Vesper+Libre" rel="stylesheet">
+    <link href="/styles/app.min.css?rev=637075bd71923fa890c0e620037a5135" rel="stylesheet">
 </head>
+
+
+
 <body id="wrapper">
-    <div ui-view></div>
-    <section class="footer">
-        <p class="text-center"><a href="https://darksky.net/poweredby/" target="_blank">Powered by Dark Sky</a></p>
+    <section id="header">
+      <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+            </button>
+            <a class="navbar-brand" href="#">Molly Aigner</a>
+
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">About</a></li>
+              <li><a href="#">CV</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
     </section>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCVagOKmuUJABOVWolb2cRp-HMEWgS6rek"></script>
-    <script type="text/javascript" src="/js/app.min.js?rev=81be510b6ba329e3eadadd67e3ebd5ee"></script>
+    <section id="main" class="main-section">
+
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6 card">
+
+        </div>
+        <div class="col-xs-12 col-lg-6 card">
+
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <script src="/js/app.min.js" type="text/javascript"></script>
+
 </body>
 
 </html>
